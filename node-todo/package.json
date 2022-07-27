@@ -1,0 +1,27 @@
+{
+  "name": "todo-alex",
+  "version": "0.0.2",
+  "description": "this is a todolist command-line!",
+  "main": "index.js",
+  "author": "Alex He",
+  "license": "MIT",
+  "bin": {
+    "todo": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "db.js",
+    "index.js"
+  ],
+  "scripts": {
+      "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "inquirer": "^7.0.0",
+    "todo-alex": "^0.0.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
